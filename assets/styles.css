@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #E1934F
+    
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),
+    url('https://wallpapers.com/images/high/mudkip-many-faces-wdeby6jbva4jw3vj.webp');
+    background-size: cover;
+
+}
+
+
+.board {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 606px;
+
+    border: 1px solid #58ABD1;
+    
+    
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #58ABD1;
+}
+
+.in-mole {
+    background: url(https://images.wikidexcdn.net/mwuploads/wikidex/b/b9/latest/20120927232012/Mudkip_%282004%29.png);
+    background-size: cover;
+}
+
+.in-mole:hover {
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    gap: 0px 30px;
+}
